@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:instagram/componants/ui_helper.dart';
 
 class FollowingScreen extends StatelessWidget {
   const FollowingScreen({super.key});
@@ -22,6 +23,7 @@ class FollowingScreen extends StatelessWidget {
                     ),
                   ),
                 ),
+                
                 SizedBox(width: 17),
 
                 Text(

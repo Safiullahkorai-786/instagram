@@ -95,4 +95,38 @@ class UiHelper {
       ),
     );
   }
+
+  static listTile (){
+    return Row(
+      children: [
+        CircleAvatar(
+          radius: 25,
+          backgroundImage: NetworkImage(
+            "https://media.licdn.com/dms/image/v2/D4D03AQEXq2aLTU03sQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1720987699577?e=1773273600&v=beta&t=unhX-BHKUXwhyrHfX77bzCWXf_4TccBHw61OldApiho",
+          ),
+        ),
+    
+        Text.rich(
+          TextSpan(
+            text: "   Shahzaib",
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 17),
+            children: [
+              TextSpan(
+                text: " liked your photo. ",
+                style: TextStyle(
+                  fontSize: 16,
+                  color: Colors.white,
+                  fontWeight: FontWeight.w300,
+                ),
+              ),
+              TextSpan(
+                text: "1h",
+                style: TextStyle(fontSize: 15, color: Colors.grey),
+              ),
+            ],
+          ),
+        ),
+      ],
+    );
+  }
 }
