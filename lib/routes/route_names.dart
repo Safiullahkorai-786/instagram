@@ -1,4 +1,3 @@
-import 'package:instagram/ui/bottom%20navbar%20screens/search_screen.dart';
 
 class RouteNames {
   static const String splashScreen = "splash_screen";

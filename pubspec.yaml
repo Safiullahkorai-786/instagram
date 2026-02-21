@@ -67,6 +67,9 @@ flutter:
     - assets/home screen/post icons/
     - assets/home screen/post profile/
     - assets/home screen/stories/
+    - assets/profile screen/posts/
+    - assets/profile screen/profile/
+    - assets/profile screen/stories/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

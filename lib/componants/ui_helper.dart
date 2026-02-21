@@ -58,7 +58,7 @@ class UiHelper {
     required String image,
     required String text,
   }) {
-    return Container(
+    return SizedBox(
       width: 85,
       child: Column(
         children: [
@@ -86,7 +86,7 @@ class UiHelper {
     );
   }
 
-  static postIcons({required String address}) {
+  static SizedBox postIcons({required String address}) {
     return SizedBox(
       height: 25,
       width: 25,
